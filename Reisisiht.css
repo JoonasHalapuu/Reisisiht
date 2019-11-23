@@ -1,0 +1,38 @@
+body {
+	margin:0;
+}/*Joondus täpselt vasakult*/
+
+h1 {
+	padding-top:30px;
+} /*Et tuleks ülemise menüü kohalt välja  */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;/*Et liiguks scrollimisel kaasa*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}/*Kui hiirega peal olla läheb tesit värvi*/
+
+.active {
+  background-color: #4CAF50;
+}/*Näitab, mis lehel hetkel ollakse nö higlightitud*/
