@@ -1,11 +1,26 @@
-body {
-	margin:0;
-}/*Joondus täpselt vasakult*/
+.Pealeht {
+	background-image:url("https://images.wallpaperscraft.com/image/mountains_silhouette_travel_123471_4608x2963.jpg");
+	background-size: 100% 800px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+body  {
+	text-align:justify;
+}
 
 h1 {
 	padding-top:30px;
+	text-align:center;
 } /*Et tuleks ülemise menüü kohalt välja  */
-
+h2  {
+	padding-left:2%;
+}
+p   {
+	color:black;
+	padding-right:40%;
+	padding-left:2%;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -33,6 +48,12 @@ li a:hover:not(.active) {
   background-color: #111;
 }/*Kui hiirega peal olla läheb tesit värvi*/
 
+img  {
+	width: 400px;
+	float:right;
+	margin-left: 20px;
+	padding-right:50px;
+}
 .active {
   background-color: #4CAF50;
 }/*Näitab, mis lehel hetkel ollakse nö higlightitud*/
