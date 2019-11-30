@@ -32,7 +32,7 @@ h2  {
 h3 {
   font-family: Splatch;
   padding-right: 10px;
-  color:white;
+  color: white;
 }
 .container{
   max-width: 1200px;
@@ -51,6 +51,7 @@ h3 {
 	padding-left:2%;
   font-size: 21px
 }
+
 p   {
   color:black;
   padding-right: 2%;
@@ -97,12 +98,12 @@ img  {
 /*Google kaardi jaoks*/
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
+
 #map {
+      margin: 0 auto;
       float: left;
       height: 30%;
-      margin-left: 20px;
-      margin-top: 20px;
-      width: 48%;
+      width: 80%
 }
 
 table {
@@ -123,8 +124,8 @@ table {
   margin-left: 20px;
 }
 #listing {
-  margin-top: 20px;
-  width: 10%;
+  width: 20%;
+  max-width: 200px;
   height: 30%;
   overflow: auto;
   left: 0px;
@@ -136,15 +137,15 @@ table {
   font-size: 21px;
 }
 #locationField {
-  -webkit-box-flex: 1 1 190px;
-  -ms-flex: 1 1 190px;
-  flex: 1 1 190px;
+  -webkit-box-flex: 1 1 400px;
+  -ms-flex: 1 1 400px;
+  flex: 1 1 400px;
   margin: 0 8px;
 }
 #controls {
-  -webkit-box-flex: 1 1 140px;
-  -ms-flex: 1 1 140px;
-  flex: 1 1 140px;
+  -webkit-box-flex: 1 1 280px;
+  -ms-flex: 1 1 280px;
+  flex: 1 1 280px;
 }
 #autocomplete {
   width: 100%;
@@ -163,7 +164,7 @@ table {
 }
 #resultsTable {
   border-collapse: collapse;
-  width: 240px;
+  width: relative;
 }
 #rating {
   font-size: 13px;
