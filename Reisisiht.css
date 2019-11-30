@@ -118,8 +118,9 @@ table {
   display: flex;
   left: 0;
   top: 0;
-  width: 440px;
+  width: 600px;
   z-index: 1;
+  margin-left: 20px;
 }
 #listing {
   margin-top: 20px;
@@ -132,7 +133,7 @@ table {
   overflow-x: hidden;
 }
 #findhotels {
-  font-size: 16px;
+  font-size: 21px;
 }
 #locationField {
   -webkit-box-flex: 1 1 190px;
