@@ -26,11 +26,22 @@ h3 {
   font-family: Splatch;
   padding-right: 10px;
 }
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container .content {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+}
+
 p   {
-	color:black;
-	padding-right:40%;
+	color:#f1f1f1;
+  padding-right: 2%;
 	padding-left:2%;
-  font-size: 22px
+  font-size: 21px
 }
 ul {
   list-style-type: none;
