@@ -4,6 +4,12 @@
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
+.Kõrvalleht{
+  background-image:url("https://thecharmingstyle.com/image/217531-full_off-white-textured-background-1920x10803-guestoria.jpg");
+  background-size: 100% 950px;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
 
 html, body  {
 	text-align:justify;
@@ -37,10 +43,16 @@ h3 {
   padding: 20px;
 }
 
-p   {
+p1   {
 	color:#f1f1f1;
   padding-right: 2%;
 	padding-left:2%;
+  font-size: 21px
+}
+p2   {
+  color:black;
+  padding-right: 2%;
+  padding-left:2%;
   font-size: 21px
 }
 ul {
