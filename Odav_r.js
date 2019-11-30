@@ -1,3 +1,6 @@
+/*kasutusel on Google Maps-i API, kasutatud on lehel olevat näidekoodi implementeermisest, mida on muudetud vastavalt vajadustele*/
+/*link koodile: https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch*/
+
 var map, places, infoWindow;
 var markers = [];
 var autocomplete;
