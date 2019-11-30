@@ -5,8 +5,11 @@
 	background-attachment:fixed;
 }
 
-body  {
+html, body  {
 	text-align:justify;
+	height: 100%;
+        margin: 0;
+        padding: 0;
 }
 
 h1 {
@@ -50,10 +53,95 @@ li a:hover:not(.active) {
 
 img  {
 	width: 400px;
-	float:right;
+	/* Siin oli enne float: right; aga see teeb kaardi katki*/
 	margin-left: 20px;
 	padding-right:50px;
 }
 .active {
   background-color: #4CAF50;
 }/*Näitab, mis lehel hetkel ollakse nö higlightitud*/
+
+/*Google kaardi jaoks*/
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+      float: left;
+      height: 30%;
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 48%;
+}
+
+table {
+  font-size: 12px;
+}
+.hotel-search {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 440px;
+  z-index: 1;
+}
+#listing {
+  margin-top: 20px;
+  width: 10%;
+  height: 30%;
+  overflow: auto;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+#findhotels {
+  font-size: 16px;
+}
+#locationField {
+  -webkit-box-flex: 1 1 190px;
+  -ms-flex: 1 1 190px;
+  flex: 1 1 190px;
+  margin: 0 8px;
+}
+#controls {
+  -webkit-box-flex: 1 1 140px;
+  -ms-flex: 1 1 140px;
+  flex: 1 1 140px;
+}
+#autocomplete {
+  width: 100%;
+}
+#country {
+  width: 100%;
+}
+.placeIcon {
+  width: 20px;
+  height: 34px;
+  margin: 4px;
+}
+.hotelIcon {
+  width: 24px;
+  height: 24px;
+}
+#resultsTable {
+  border-collapse: collapse;
+  width: 240px;
+}
+#rating {
+  font-size: 13px;
+  font-family: Arial Unicode MS;
+}
+.iw_table_row {
+  height: 18px;
+}
+.iw_attribute_name {
+  font-weight: bold;
+  text-align: right;
+}
+.iw_table_icon {
+  text-align: right;
+}
